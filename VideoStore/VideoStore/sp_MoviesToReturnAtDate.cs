@@ -11,6 +11,7 @@ public partial class StoredProcedures
     {
         using (SqlConnection conn = new SqlConnection("context connection=true"))
         {
+
             SqlCommand CheckSpecificDate = new SqlCommand();
             SqlParameter selectYearParam = new SqlParameter("@year", SqlDbType.Int);
             SqlParameter selectMonthParam = new SqlParameter("@month", SqlDbType.Int);
