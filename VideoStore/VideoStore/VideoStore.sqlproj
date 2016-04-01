@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="sp_NumberOfMoviesByCategory.cs" />
     <Compile Include="sp_MoviesToReturnAtDate.cs" />
+    <Compile Include="sp_SpecificMemberMoviesToReturn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="VideoStore.publish.xml" />
